@@ -5,7 +5,7 @@ pipeline{
 	steps{
 	echo "Cloning repo"
 	git url:"https://github.com/rohini-garlapati/Devopslabweek8.git",
-	branch:'master'
+	branch:'main'
 	}
 	}
 	stage('Build'){
@@ -32,3 +32,4 @@ pipeline{
 	
 	}
 }
+
